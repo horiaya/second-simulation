@@ -1,0 +1,46 @@
+.done {
+    text-align: center;
+}
+.done__content {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+    box-shadow: 1px 1px 3px;
+    border-radius: 3px;
+}
+.done__content p {
+    font-size: 25px;
+}
+.done__remove button{
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+/* レスポンシブ (768px以下)*/
+@media screen and (max-width: 768px) {
+    .done__content {
+        padding: 30px;
+    }
+    .done__content p {
+        font-size: 20px;
+    }
+    .done__remove button {
+        font-size: 13px;
+    }
+}
+/* レスポンシブ (480px以下)*/
+@media screen and (max-width: 480px) {
+    .done__content {
+        padding: 10px;
+    }
+    .done__content p {
+        font-size: 13px;
+    }
+    .done__remove button {
+        font-size: 7px;
+    }
+}

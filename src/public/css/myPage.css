@@ -1,0 +1,131 @@
+.myPage__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.myPage-reservation {
+    display: block;
+    box-sizing: border-box;
+}
+.myPage__user-name {
+    text-align: center;
+    display: block;
+    padding:0;
+    margin: 0;
+}
+.myPage-reservation__content {
+    color: white;
+}
+.myPage-reservation__item {
+    background-color: rgba(22, 98, 229, 0.934);
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    margin-right: 100px;
+    box-sizing: border-box;
+}
+.reservation__heading {
+    text-align: left;
+    position: relative;
+}
+.clock-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.delete-icon {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.myPage-reservation__confirmation p span:first-child {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+.reservation__confirmation p span:last-child {
+    display: inline-block;
+    text-align: left;
+    flex-grow: 1;
+}
+.reservation__change {
+    text-align: center;
+}
+.reservation__change a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+
+.myPage-shop__list {
+    display: inline-block;
+    background-color: white;
+    height: 320px;
+    margin: 0 30px 30px 0;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px;
+}
+
+/* レスポンシブ (768px以下)*/
+@media screen and (max-width: 768px) {
+    .myPage__user-name {
+        text-align: left;
+    }
+    .myPage-reservation {
+        display: inline-block;
+        width: 50%;
+    }
+    .myPage-reservation__item {
+        width: 100%;
+        margin-right: 10px;
+    }
+    .favorite__list {
+        width: 40%;
+    }
+}
+/* レスポンシブ (480px以下)*/
+@media screen and (max-width: 480px) {
+    .myPage__content {
+        display: block;
+    }
+    .myPage-reservation {
+        width: 100%;
+    }
+    .myPage-reservation__confirmation p span:first-child {
+        width: 70px;
+        font-size: 13px;
+    }
+    .favorite__list {
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+    }
+    .myPage-shop__list {
+        width: 100%;
+        height: 250px;
+    }
+    .myPage-shop__list img{
+        height: 130px;
+    }
+    .myPage-shop__list h2 {
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    .shop__content {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .shop__content-item {
+        height: 30px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}

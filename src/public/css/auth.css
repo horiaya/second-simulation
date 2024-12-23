@@ -1,0 +1,108 @@
+
+.auth__content {
+    width: 40%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top:60px;
+    box-shadow: 1px 1px 4px;
+    box-sizing: border-box;
+}
+.auth__title {
+    margin-top: 0;
+    background-color: blue;
+    width: 100%;
+    display: inline-block;
+    color: white;
+    padding:10px 80px 10px 30px;
+}
+.auth__form-group {
+    padding: 10px 30px;
+}
+.auth__form-input {
+    align-items: center;
+    text-align: left;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+.auth__form-input input {
+    width: 80%;
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid rgb(76, 74, 74);
+}
+.auth__form-input i{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    width:30px;
+    color: rgb(76, 74, 74);
+}
+.form-submit {
+    width: 100%;
+    text-align: right;
+}
+.auth__form-submit {
+    display: inline-block;
+    margin: 5px 20px 10px 0;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.form__error-content {
+    color: red;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.form__error {
+    color:red;
+    font-size: 13px;
+}
+/* レスポンシブ (768px以下)*/
+@media screen and (max-width: 768px) {
+    .auth__content {
+        width: 50%;
+        margin: 20px auto;
+    }
+    .auth__title {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .auth__form-group {
+        padding: 20px 20px;
+    }
+    .auth__form-input {
+        margin-bottom: 7px;
+    }
+    .auth__form-input input {
+        width: 80%;
+    }
+    .auth__form-input i {
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+}
+/* レスポンシブ (480px以下)*/
+@media screen and (max-width: 480px) {
+    .auth__content {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .auth__title {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+    .auth__form-group {
+        padding: 0px 5px;
+    }
+    .auth__form-input input {
+        width: 70%;
+        padding: 2px;
+        font-size: 13px;
+    }
+    .auth__form-submit {
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+}

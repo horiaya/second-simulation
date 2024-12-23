@@ -1,0 +1,170 @@
+.shop__detail {
+    display: flex;
+}
+.shop__detail-content {
+    width: 50%;
+}
+.detail__remove-btn {
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 20px;
+    background-color: white;
+    padding:0 13px 0 11px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px;
+    text-decoration: none;
+    color: black;
+}
+.detail__title {
+    display: inline-block;
+    font-size: 30px;
+}
+.shop__detail-img {
+    padding: 0 30px 0 0;
+}
+.shop__img-item {
+    border-radius: 0;
+}
+.shop__text {
+    padding: 0 20px 0 0;
+}
+.shop__tag {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.reservation {
+    width: 50%;
+    padding:0 0 0 30px;
+    margin-bottom: 10px;
+}
+.reservation__content {
+    background-color: rgba(22, 98, 229, 0.934);
+    color: white;
+    padding: 30px 30px 0 30px;
+    border-radius: 5px;
+}
+.reservation__list {
+    margin-bottom: 10px;
+}
+.reservation__list input {
+    width: 170px;
+}
+.reservation__list select {
+    width: 100%;
+}
+.reservation__item {
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+}
+.reservation__confirmation {
+    background-color: rgba(90, 154, 228, 0.884);
+    padding: 5px 20px;
+    border-radius: 6px;
+    margin-bottom: 230px;
+}
+.reservation__confirmation p {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.reservation__confirmation p span:first-child {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+.reservation__confirmation p span:last-child {
+    display: inline-block;
+    text-align: left;
+    flex-grow: 1;
+}
+.list-name {
+    font-size: 13px;
+}
+.reservation__form-btn {
+    background-color: blue;
+    display: block;
+    padding: 0;
+    margin: 0 -30px;
+    border-radius: 0 0 5px 5px;
+}
+.reservation__form-btn button {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 0 0 5px 5px;
+}
+/* レスポンシブ (768px以下)*/
+@media screen and (max-width: 768px) {
+    .shop__detail {
+        display: block;
+    }
+    .shop__detail-content {
+        width: 80%;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .shop__detail-img {
+        padding-right: 0;
+    }
+    .shop__detail-img img {
+        width: 60%;
+        height:200px;
+        padding: 0;
+    }
+    .reservation {
+        width: 100%;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .reservation__content {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .reservation__confirmation {
+        margin-bottom: 100px;
+    }
+    /* レスポンシブ (480px以下)*/
+    @media screen and (max-width: 480px)
+    {
+        .detail__title {
+            font-size: 20px;
+        }
+        .detail__remove-btn {
+            font-size: 15px;
+            padding: 0 7px 0 6px;
+        }
+        .shop__detail-img img {
+            width: 100%;
+            height: 150px;
+        }
+        .shop__text {
+            padding: 0;
+            font-size: 15px;
+            margin: 0;
+        }
+        .shop__tag {
+            font-size: 10px;
+        }
+        .reservation__content {
+            width: 90%;
+        }
+        .reservation__logo {
+            font-size: 20px;
+            margin: 0 0 5px 0;
+        }
+        .reservation__confirmation p {
+            display: block;
+        }
+        .reservation__confirmation span {
+            display: block;
+            width: 100%;
+        }
+    }
+}

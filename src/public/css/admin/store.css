@@ -1,0 +1,26 @@
+
+
+.store-representative {
+    display: block;
+    text-align: center;
+}
+
+.store-representative button {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.store-representative table {
+    margin: 0 auto;
+    font-size: 20px;
+    color: gray;
+}
+
+.store-representative td {
+    width: 70%;
+}
+
+.store-representative input {
+    width: 100%;
+    font-size: 15px;
+}
