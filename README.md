@@ -16,5 +16,11 @@
 フレームワーク：Laravel
 
 データベース：MySQL
+## テーブル一覧
+(https://docs.google.com/spreadsheets/d/1A5m0_zv4YWi6SWNBxhrB3GYlKKBDOaIemMsrFzCYoVY/edit?gid=320603785#gid=320603785)
 ## ER図
-[ER図]（https://github.com/user-attachments/assets/d6f5e352-2a94-4dc8-af45-29ca035dbcf）
+[ER図](https://github.com/user-attachments/assets/57f2b57d-4bb7-4387-9941-6b2f53549b07)
+
+### 仮登録しているユーザー（テスト用）
+顧客（名前：d / メール：ddd@ddd.com / パスワード：dddd1234）
+管理者（名前：AdminUser/ メール：admin@example.com / パスワード：password）
